@@ -19,7 +19,7 @@ export C1D_STANDBY_TOKEN="$(openssl rand -hex 32)"
 
 令牌会在构建时写入 APK 资源，但不会写入源码仓库。把同一令牌输入 Home Assistant 集成。请妥善保管最终 APK，因为能读取 APK 的人也可能提取令牌。
 
-默认包名为 `com.gathin.tvhome`。安装、切换和恢复 HOME 的流程见配套仓库 [c1d-adb-home-setup](https://github.com/HenryGitG/c1d-adb-home-setup)。
+默认包名为 `com.gathin.tvhome`。Release APK 位于 `app/build/outputs/apk/release/app-release.apk`。安装、切换和恢复 HOME 的流程见配套仓库的 [安装与替换 HOME](https://github.com/HenryGitG/c1d-adb-home-setup/blob/main/docs/replace-home.md)。
 
 ## 设备限制
 

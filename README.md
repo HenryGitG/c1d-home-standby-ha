@@ -14,7 +14,7 @@ Home Assistant 开关
 
 ## 与 ADB/HOME 设置仓库的关系
 
-首次打开固件调试入口、建立标准 ADB、安装 APK、切换或恢复 HOME，请先使用：[c1d-adb-home-setup](https://github.com/HenryGitG/c1d-adb-home-setup)。
+首次通过系统远程协助启动网络 ADB、安装 APK、切换或恢复 HOME，请先使用：[c1d-adb-home-setup](https://github.com/HenryGitG/c1d-adb-home-setup)。其公开客户端包含厂商转发协议、设备身份核对、启动 `adbd` 和首次 ADB 公钥授权流程。
 
 本仓库从“ADB 已可用”开始，负责：
 
@@ -27,7 +27,7 @@ Home Assistant 开关
 ## 快速开始
 
 1. 按 [Android 构建说明](android/home-launcher/README.md)生成一个随机 Token 并构建 APK。
-2. 使用配套仓库的 ADB 流程安装 APK、切换 HOME。
+2. 使用配套仓库先 [开启网络 ADB](https://github.com/HenryGitG/c1d-adb-home-setup/blob/main/docs/remote-assistance-and-adb.md)，再 [安装 APK 并切换 HOME](https://github.com/HenryGitG/c1d-adb-home-setup/blob/main/docs/replace-home.md)。
 3. 把 `home-assistant/custom_components/c1d_projector/` 复制到 HA 的 `/config/custom_components/`。
 4. 重启 HA，在“设置 → 设备与服务”的“已发现”中添加 `C1D Projector`。
 5. 输入构建 APK 时使用的同一个 Token。
