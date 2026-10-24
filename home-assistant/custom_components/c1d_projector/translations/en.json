@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "zeroconf_confirm": {
+        "title": "Connect to {name}",
+        "description": "Enter the private API token included with the projector app.",
+        "data": {
+          "token": "API token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect",
+      "invalid_auth": "Invalid API token"
+    },
+    "abort": {
+      "already_configured": "This projector is already configured",
+      "discovery_required": "Wait for the projector to be discovered automatically, then add it from Discovered integrations.",
+      "invalid_discovery": "The discovered service did not include a stable device ID"
+    }
+  }
+}

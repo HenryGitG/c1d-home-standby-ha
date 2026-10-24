@@ -1,0 +1,26 @@
+{
+  "dock_apps": [
+    "com.github.tvbox.osc.tk",
+    "com.shafa.market",
+    "com.obe.settings"
+  ],
+  "hidden_apps": [
+    "com.ktcp.launcher",
+    "com.conreo.couchytv",
+    "com.henry.c1d.litehome"
+  ],
+  "fill_dock": true,
+  "columns": 4,
+  "dock_row": true,
+  "dock_title": true,
+  "rows_below_dock": 0,
+  "app_library": true,
+  "animations": true,
+  "advanced_effects": false,
+  "reduced_motion": true,
+  "module_cards": true,
+  "background_color": "#08080C",
+  "wallpaper": false,
+  "source_panel_service": "",
+  "source_panel_action": "android.intent.action.MAIN"
+}

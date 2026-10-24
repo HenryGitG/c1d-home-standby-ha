@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "zeroconf_confirm": {
+        "title": "连接到 {name}",
+        "description": "请输入投影仪应用随附的私有 API Token。",
+        "data": {
+          "token": "API Token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接投影仪",
+      "invalid_auth": "API Token 不正确"
+    },
+    "abort": {
+      "already_configured": "这台投影仪已经配置",
+      "discovery_required": "请等待投影仪被自动发现，然后从已发现的集成中添加。",
+      "invalid_discovery": "发现信息中没有稳定的设备 ID"
+    }
+  }
+}

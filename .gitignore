@@ -1,0 +1,14 @@
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.gradle/
+**/build/
+*.apk
+*.jks
+*.keystore
+local.properties
+private/
+secrets.yaml
+*.token
